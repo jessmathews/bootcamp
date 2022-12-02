@@ -14,7 +14,7 @@ public class BinarySearch {
 		while (start <= end ) {
 			int mid = start + (end - start) / 2; // so end + start does not exceed int max value
 			if (target < arr[mid]) {
-				end = mid -1;
+				end = mid - 1;
 
 			}
 			else if (target > arr[mid]) {
